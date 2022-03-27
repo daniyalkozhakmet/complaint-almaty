@@ -7,7 +7,6 @@ from rest_framework import status
 from django.db.models import Count
 from django.db.models.functions import TruncMonth
 from django.db import connection
-import pandas as pd
 from django.core.paginator import Paginator,EmptyPage, PageNotAnInteger
 from base.models import User
 from base.serializer import UserSerializerWithToken,UserSerializer
